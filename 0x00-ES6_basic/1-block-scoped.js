@@ -1,12 +1,12 @@
-/* Block Scope */
+/* variables aren’t overwritten inside the conditional block */
 export default function taskBlock(trueOrFalse) {
-  let task = false;
-  let task2 = true;
+    const task = false;
+    const task2 = true;
 
-  if (trueOrFalse) {
-    task = true;
-    task2 = false;
+    if (trueOrFalse) {
+      var task = true;
+      var task2 = false;
+    }
+
+    return [task, task2];
   }
-
-  return [task, task2];
-}
