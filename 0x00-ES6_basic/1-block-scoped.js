@@ -1,4 +1,4 @@
-/* variables aren’t overwritten inside the conditional block */
+// variables aren’t overwritten inside the conditional
 export default function taskBlock(trueOrFalse) {
     const task = false;
     const task2 = true;
