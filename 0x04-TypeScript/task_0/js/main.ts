@@ -6,16 +6,16 @@ interface Student {
   }
 
   const student1: Student = {
-    firstName: 'Bio',
-    lastName: 'Hack',
-    age: 20,
+    firstName: 'Afeez',
+    lastName: 'Lasisi',
+    age: 30,
     location: 'localhost',
   };
 
   const student2: Student = {
-    firstName: 'Amasin',
-    lastName: 'Bio',
-    age: 22,
+    firstName: 'AtoZconcept',
+    lastName: 'Ecotech',
+    age: 2,
     location: 'localhost',
   };
 
